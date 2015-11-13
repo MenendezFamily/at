@@ -34,8 +34,8 @@
 	map.setMapType(G_PHYSICAL_MAP);
 		
 	// Load the trail
-	trail_far = new GGeoXml("atc_far.kml");
-	trail_close = new GGeoXml("atc_close.kml");
+	trail_far = new GGeoXml("http://www.menendezfamily.com/at/atc_far.kml");
+	trail_close = new GGeoXml("http://www.menendezfamily.com/at/atc_close.kml");
 	map.addOverlay(trail_far);
 
 	// Switch between near and far AT centerlines
